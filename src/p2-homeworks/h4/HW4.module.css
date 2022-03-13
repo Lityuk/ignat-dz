@@ -1,0 +1,22 @@
+.teal {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.blue {
+    border-bottom: 3px solid blue;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}

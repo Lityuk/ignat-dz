@@ -1,0 +1,51 @@
+.default {
+    border-radius: 5px;
+    color: #3f5d52;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.default:hover {
+    color: tomato;
+}
+
+.lightblue {
+    background: lightblue;
+    border-radius: 5px;
+}
+
+.lightblue:hover {
+    color: red;
+}
+
+.default:disabled {
+    opacity: 50%;
+    z-index: -1;
+}
+
+
+.default:hover:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    left: 50%;
+    background: #37706d;
+    opacity: 0.2;
+    transform: rotate(45deg);
+    border-radius: 100%;
+    animation: button 1000ms linear;
+}
+
+
+@keyframes button {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(100);
+    }
+}

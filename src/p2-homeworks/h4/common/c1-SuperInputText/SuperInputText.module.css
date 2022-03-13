@@ -1,0 +1,25 @@
+.superInput {
+    background: greenyellow;
+    border-radius: 10px;
+}
+
+.superInput:hover, .superInput:focus {
+    transform: scale(1.05);
+    outline: none;
+    border:   3px solid white;
+}
+
+.errorInput {
+    border: 3px solid red;
+}
+
+.error {
+    color: red;
+}
+
+.divForSpan {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
