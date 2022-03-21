@@ -19,17 +19,17 @@ function Header() {
             <div className={s.nav}>
 
                 <div className={s.nav__icon} onClick={() => onClickHandler()}>
-                    Btn
+                    {'=>'}
                 </div>
                 <ul className={s.nav__body}>
                     <li>
-                        <NavLink to="/PATH.PRE_JUNIOR">PreJunior</NavLink>
+                        <NavLink className={s.navlink} to="/PATH.PRE_JUNIOR">PreJunior</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/PATH.JUNIOR">Junior</NavLink>
+                        <NavLink className={s.navlink} to="/PATH.JUNIOR">Junior</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/PATH.JUNIOR_PLUS">Junior Plus</NavLink>
+                        <NavLink className={s.navlink} to="/PATH.JUNIOR_PLUS">Junior Plus</NavLink>
                     </li>
                 </ul>
             </div>
